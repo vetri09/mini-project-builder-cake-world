@@ -106,26 +106,31 @@ function renderChocolate() {
 //onclick
   document.querySelector(".btn-chocolate").onclick = function () {
     document.getElementById("candle").classList.add("disp");
+    document.getElementById("total").textContent="";
     state.chocolate = !state.chocolate;
     renderAll();
   };
   document.querySelector(".btn-strawberry").onclick = function () {
     document.getElementById("candle").classList.add("disp");
+    document.getElementById("total").textContent="";
     state.strawberry = !state.strawberry;
     renderAll();
   };
   document.querySelector(".btn-butterscotch").onclick = function () {
     document.getElementById("candle").classList.add("disp");
+    document.getElementById("total").textContent="";
     state.butterscotch = !state.butterscotch;
     renderAll();
   };
   document.querySelector(".btn-vanilla").onclick = function () {
     document.getElementById("candle").classList.add("disp");
+    document.getElementById("total").textContent="";
     state.vanilla = !state.vanilla;
     renderAll();
   };
   document.querySelector(".btn-redvelvet").onclick = function () {
     document.getElementById("candle").classList.add("disp");
+    document.getElementById("total").textContent="";
     state.redvelvet = !state.redvelvet;
     renderAll();
   };
