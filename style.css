@@ -102,7 +102,7 @@ body
 }
 /* display none */
 .disp{
-    display: none;
+    display: none !important;
 }
 /* cake elements */
 .cake img{
